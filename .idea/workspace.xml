@@ -5,25 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdc5445f-5747-476c-9809-297d5c10af21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CarHW_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_6_MainBooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainCarHW_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainComputerHW_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ComputerHW3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EducationBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FictionBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/KidsFictionBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarHW_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarHW_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Computer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson_6_MainBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson_6_MainBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainComputerHW_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainComputerHW_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kseniyaorlova82-svg"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kseniyaorlova82-svg/HomeWork_3.git",
+    "accountId": "7b1371dd-259b-49fd-9efc-8209221ee155"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1,
   &quot;fromUser&quot;: false
@@ -61,6 +65,7 @@
   "keyToString": {
     "Gradle.JavaOOP [:Lesson_6_MainBooks.main()].executor": "Run",
     "Gradle.JavaOOP [:MainCar.main()].executor": "Run",
+    "Gradle.JavaOOP [:MainCarHW_3.main()].executor": "Run",
     "Gradle.JavaOOP [:MainComputer.main()].executor": "Run",
     "Gradle.JavaOOP [:MainPerson.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -79,7 +84,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainCar">
+  <component name="RunManager" selected="Application.MainPerson">
     <configuration name="Lesson_6_MainBooks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_6_MainBooks" />
       <module name="JavaOOP.main" />
@@ -89,6 +94,13 @@
     </configuration>
     <configuration name="MainCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainCar" />
+      <module name="JavaOOP.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCarHW_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainCarHW_3" />
       <module name="JavaOOP.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainCarHW_3" />
         <item itemvalue="Application.MainCar" />
         <item itemvalue="Application.MainComputer" />
         <item itemvalue="Application.Lesson_6_MainBooks" />
@@ -127,6 +140,7 @@
       <workItem from="1778775604670" duration="7060000" />
       <workItem from="1778826444866" duration="2731000" />
       <workItem from="1779099639621" duration="11005000" />
+      <workItem from="1779175506949" duration="15376000" />
     </task>
     <servers />
   </component>

@@ -1,12 +1,10 @@
 public class Book /*extends Object*/ {
     private String title;
     private String author;
-    private  int pages;
+    private int pages;
     private int isbn;
 
-    public Book(){
-
-    }
+    public Book(){}
 
     public Book(String title, String author, int pages, int isbn) {
         super();//наследование
@@ -22,7 +20,7 @@ public class Book /*extends Object*/ {
 
     public void setTitle(String title) {
         if (title != null)
-        this.title = title;
+            this.title = title;
     }
 
     public String getAuthor() {
@@ -31,7 +29,7 @@ public class Book /*extends Object*/ {
 
     public void setAuthor(String author) {
         if (author != null)
-        this.author = author;
+            this.author = author;
     }
 
     public int getPages() {
@@ -40,7 +38,7 @@ public class Book /*extends Object*/ {
 
     public void setPages(int pages) {
         if (pages >0)
-        this.pages = pages;
+            this.pages = pages;
     }
 
     public int getIsbn() {
@@ -49,16 +47,15 @@ public class Book /*extends Object*/ {
 
     public void setIsbn(int isbn) {
         if (isbn >0)
-        this.isbn = isbn;
+            this.isbn = isbn;
     }
 
     @Override
     public String toString() {
-        return "Author: " + this.author +
+        String str = "Author: " + this.author +
                 " Title: " + this.title +
                 " Pages: " + this.pages +
                 " ISBN " + this.isbn;
-
-         }
+        return str;
     }
-
+}

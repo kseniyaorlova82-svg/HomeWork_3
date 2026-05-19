@@ -50,4 +50,9 @@ public class CarHW_3 {
         public double getPrice() {
             return price;
         }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
+}

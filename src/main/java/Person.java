@@ -1,5 +1,5 @@
- public class Person {
-    //this - ссылка на все что есть в классе
+public class Person {
+    //this -ссылка на все что есть в классе
     //fields
     private String name;
     private int id;
@@ -7,34 +7,32 @@
 
     //DEFAULT CONSTRUCTOR
     public Person()
-
     {
         System.out.println("DEFAULT CONSTRUCTOR");
     }
+
     //setters
     public void setName(String name){
         if(name!=null)
             this.name = name;
     }
-    public void setId(int id) {
+    public void setId(int id){
         if(id >0)
             this.id = id;
     }
-    public void  setAge(double age){
+    public void setAge(double age){
         if (age > 0)
             this.age = age;
     }
 
     //getters
-    public String getName() {
+    public String getName(){
         return name;
     }
-
-    public int getId() {
+    public int getId(){
         return id;
     }
-
-    public double getAge() {
+    public double getAge(){
         return age;
     }
 
